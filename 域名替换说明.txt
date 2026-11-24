@@ -1,0 +1,16 @@
+发布前必做：把占位域名替换成你自己的正式域名
+
+1. 本站目前使用占位域名：YOUR-DOMAIN.com
+   示例：如果你使用 www.xiaofulin-lawyer.com，就把所有 YOUR-DOMAIN.com 替换成 www.xiaofulin-lawyer.com。
+
+2. 需要替换的文件：
+   - index.html（canonical、og:url、og:image、JSON-LD 结构化数据中的网址）
+   - robots.txt（Sitemap 地址）
+   - sitemap.xml（loc 地址）
+
+3. 替换后检查：
+   - 浏览器打开 https://你的域名/ ，右键查看源代码，确认没有 YOUR-DOMAIN.com 残留。
+   - 打开 https://你的域名/robots.txt 和 https://你的域名/sitemap.xml ，确认能正常访问且地址正确。
+   - 本站不依赖任何 sharecode，所有资源和链接都应是普通相对路径。
+
+4. 部署到支持静态网站的空间即可（如自己已备案域名 + 云主机 / 对象存储静态网站 / GitHub Pages 等），无需 Node、无需数据库。
