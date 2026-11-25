@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# 站点地图（请把 YOUR-DOMAIN.com 替换为你的正式域名）
-Sitemap: https://YOUR-DOMAIN.com/sitemap.xml
+# 站点地图（请把 xiaofulin-lawyer.github.io 替换为你的正式域名）
+Sitemap: https://xiaofulin-lawyer.github.io/sitemap.xml
